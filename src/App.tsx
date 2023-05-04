@@ -24,7 +24,7 @@ export default function App() {
           <span></span>
         </div>
 
-        <ul>
+        <ul className="text-[1.2rem]">
           <li>About</li>
           <li>Projects</li>
           <li>Contact</li>
