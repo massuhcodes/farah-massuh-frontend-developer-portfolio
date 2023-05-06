@@ -19,8 +19,10 @@ export default function App() {
       menu.style.transform = `translateX(10.7rem)`
     } else {
       shadow.classList.remove("hidden")
-      setTimeout(() => shadow.style.opacity = "1")
-      menu.style.transform = `translateX(0)`
+      setTimeout(() => {
+        shadow.style.opacity = "1"
+        menu.style.transform = `translateX(0)`
+      })
     }
     setActiveMenu(() => !activeMenu)
   }
